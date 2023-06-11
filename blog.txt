@@ -8,3 +8,4 @@ Linked bucket to Github
 Created index.html file and started to build Website
 Added some basic CSS
 Created logo and added it
+Installed live server and edited website using.

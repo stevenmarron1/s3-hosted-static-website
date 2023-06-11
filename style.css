@@ -1,0 +1,60 @@
+<style>
+      /* CSS for dark theme */
+      body {
+        background-color: #202020;
+        color: #ffffff;
+        font-family: Helvetica, sans-serif;
+      }
+  
+  
+      /* Add a black background color to the top navigation */
+  .topnav {
+    background-color: #202020;
+    overflow: hidden;
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+    
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: #0D7AA0;
+    border-radius: 10px;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #0D7AA0;
+    color: white;
+  }
+
+  .cloudlogo{
+    width: 350px;
+  }
+
+  .headshot{
+    width: 200px;
+    border-radius: 100px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #0D7AA0;
+    }
+
+    .about-me{width: 200px;
+        padding-top: 20px;
+        display: inline-block;
+    }
+
+
+  </style>
