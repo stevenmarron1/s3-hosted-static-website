@@ -1,0 +1,10 @@
+Previous CCNA
+
+Now Cloud Resume Challenge 01/06/22
+Started learning BASH, HTML and CSS
+Opened my AWS account
+Set up S3 bucket and made it public
+Linked bucket to Github
+Created index.html file and started to build Website
+Added some basic CSS
+Created logo and added it

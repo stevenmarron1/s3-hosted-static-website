@@ -5,94 +5,91 @@
   <style>
     /* CSS for dark theme */
     body {
-      background-color: #111111;
-      color: #fff;
-      font-family: Arial, sans-serif;
+      background-color: #202020;
+      color: #ffffff;
+      font-family: Helvetica, sans-serif;
+    }
+
+
+    /* Add a black background color to the top navigation */
+.topnav {
+  background-color: #202020;
+  overflow: hidden;
+  
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #0D7AA0;
+  color: white;
+}
+
+    .cloudlogo {margin-left: 0px; margin-right: auto;
+      ;
     }
 
     /* Header */
     header {
-      padding: 20px;
+      padding: 1px;
       text-align: center;
+      
     }
 
     h1 {
-      font-size: 36px;
-      margin: 0;
+      font-size: 30px;
+      margin-left: 0;
+      padding: 0;
+      text-align: center;
+      line-height: 1;
     }
 
     /* Main content */
     main {
-      padding: 20px;
+      padding: 1px;
       max-width: 800px;
       margin: 0 auto;
     }
 
-    h2 {
-      font-size: 24px;
-      margin-bottom: 10px;
-    }
-
     p {
-      font-size: 18px;
-      line-height: 1.5;
-    }
-
-    /* Projects section */
-    .projects {
-      margin-top: 30px;
-    }
-
-    .project {
-      margin-bottom: 20px;
-    }
-
-    .project h3 {
       font-size: 20px;
-      margin-bottom: 10px;
-    }
-
-    .project p {
-      font-size: 16px;
-      line-height: 1.3;
-    }
-
-    /* Footer */
-    footer {
-      padding: 20px;
+      line-height: 1;
       text-align: center;
     }
+
+
   </style>
-</head>
-<body>
-  <header>
-    <img src="logo.png" >
-    <h1>Cloud Resume Challenge</h1>
-  </header>
 
-  <main>
-    <h2><center>Welcome</center></h2>
-   <p><center>Thanks you for visiting my cloud resume. 
-    I am working hard to build projects and gain experience as a cloud enginner. 
-    Please get in touch if you would like to know more.</center></p>
-    <h2>Education</h2>
-    <p><strong>Cisco CCNA - March 2023</strong></p>
-    <img src="1 IuPNkY-vhY51QxRWfIXKgw.png" alt="CCNA Logo" height="80" width="95">
-    <p><strong>B.Sc in Applied Physics - Dublin City University - 2018</strong></p>
-    <div class="projects">
-      <div class="project">
-        <h3>Experience</h3>
-        <p>...</p>
-      </div>
-      <div class="project">
-        <h3>Project</h3>
-        <p>Cloud Resume Challenge:</p>
-      </div>
-    </div>
-  </main>
 
-  <footer>
-    &copy; 2023 Steven Marron. All rights reserved.
-  </footer>
-</body>
+
+<head>
+  <div class="topnav">
+    <a href="#contact">Contact</a>
+    <a href="#resume">Resume</a>
+    <a class="active" href="#home">Home</a>
+    <img class="cloudlogo" href="https://www.google.com" src="logo.png" height="50" width="300" style="display:block">
+  </div>
+  </head>
+
+<main>
+<h1>Welcome</h2>
+  <p>Hi, I'm Steven. Junior Cloud Engineer based in Ireland. Welcome to my blog. 
+    I will be recording my learning journey. Please feel free to connect.</p>
+</main>
 </html>
