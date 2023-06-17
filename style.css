@@ -48,11 +48,15 @@
   .cloudlogo{
     width: 350px;
   }
+
+.h3{margin-top: 0px;}
+
 .main-body, .top-section{
     font-family: arial;
     font-size: 24px;
     padding-left: 80px;
     padding-right: 80px;
+    margin-top: 20px;
     outline: dashed 1px rgb(255, 255, 255);
 }
 .headshot, .about, .socials{
@@ -63,21 +67,40 @@
 .profile-picture{border-radius: 100px;
     outline: solid 4px; color: #0D7AA0;}
 
-.about{width: 65%;
+.about{
     font-size: 20px;
     line-height: 6px;
     vertical-align: top;
     margin-top: 30px;
-    margin-left: 5px;}
+    margin-left: 5px;
+    width: 700px;}
 
-.bottom-section{
+.socials{
+    width: 100px;
+}
+
+.middle-section{
     text-align: left;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 95px;
+    margin-right: 95px;
     outline: dashed 1px rgb(255, 255, 255);
 }
 
-.education, .skills{
+.education-collum, .skills-collum, .certification-collum{
   outline: dashed 1px rgb(255, 255, 255);
   display: inline-block;
-}
+  vertical-align: top;
+  margin-top: 0px;
+  }
+
+.skills-collum{width: 200px;}
+
+.education-collum{width: 800px;}
+
+.certification-collum{width: 200px;}
+
+.skills-heading, .education-heading, .certification-heading{margin-top: 0px;}
+
+.ccnalogo, .awslogo, .dculogo{width: 135px}
+
+.ccnalogo{height:150px;}
