@@ -93,6 +93,14 @@
   margin-top: 0px;
   }
 
+  .projects{
+    outline: dashed 1px rgb(255, 255, 255);
+    vertical-align: top;
+    margin-top: 0px;
+    width: 200px;
+    }
+  
+
 .skills-collum{width: 200px;}
 
 .education-collum{width: 800px;}
@@ -101,6 +109,6 @@
 
 .skills-heading, .education-heading, .certification-heading{margin-top: 0px;}
 
-.ccnalogo, .awslogo, .dculogo{width: 135px}
+.ccnalogo, .awslogo, .dculogo{width: 135px; 
+border-radius: 15px;}
 
-.ccnalogo{height:150px;}
